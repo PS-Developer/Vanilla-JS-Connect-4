@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+}
+
+.game{
+    position: absolute;
+    top: 4rem;
+    left: 50%;
+    transform: translate(-50%);
+    width: 650px;
+    height: 550px;
+    background: rgb(0, 140, 255);
+    border: 1px solid black;
+    box-shadow: 5px 5px rgb(32, 32, 32);
+    padding: 1.5rem;
+}
+
+.slot{
+    width: 80px;
+    height: 80px;
+    background: white;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.reset{
+    position: absolute;
+    top: 100vh;
+    left: 50%;
+    transform: translate(-50%);
+    border: 1px solid black;
+    width: 5rem;
+    text-align: center;
+    cursor: pointer;
+}
